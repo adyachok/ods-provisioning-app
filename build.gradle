@@ -136,8 +136,9 @@ dependencies {
 
 
     //frontend webjars
+    compile 'org.webjars:webjars-locator:0.37'
     compile 'org.webjars.bower:jquery:3.4.1'
-    compile 'org.webjars.bower:bootstrap:4.3.1'
+    compile 'org.webjars.bower:bootstrap:3.3.7'
     compile 'org.webjars.bower:react:16.1.0'
     compile 'org.webjars.bower:font-awesome:4.7.0'
     compile 'org.webjars.bower:lodash:4.17.10'
@@ -145,7 +146,7 @@ dependencies {
     //jira api dependencies
     compile group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.0-beta3-atlassian-1'
 
-    //encryption library for properties 
+    //encryption library for properties
     compile group: 'com.github.ulisesbocchio', name: 'jasypt-spring-boot-starter', version: '2.1.1'
 
     //easy http calls to atlassian JSON APIs
@@ -181,6 +182,9 @@ dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9'
     compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.4'
     compile group: 'com.google.guava', name: 'guava', version: '23.0'
+
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.13.2'
+
 
 }
 
